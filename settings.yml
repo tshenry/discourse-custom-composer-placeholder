@@ -1,0 +1,24 @@
+---
+custom_placeholder:
+  type: list
+  list_type: simple
+  default: ""
+  description: 
+    en: 'Specify which placeholder text should display in which category and for which trust level. 
+         Separate sections using the ~ character and multiple values in each section with a comma.
+         You may use "all" in place of category IDs or trust levels if the text should show in all 
+         respective scenarios. Note that a category ID can be found at the end of its URL.
+         <br><br>
+         Format: custom_composer_placeholder_text_number~category_id(s)~trust_level(s)
+         <br><br>
+         <b>Example</b>: Use text_1 in category 12 for users TL2 and lower
+         <br>
+         <code>1~5,12~0,1,2</code>
+         <br><br>
+         <b>Example</b>: Use  text_3 in all categories for users TL2 and lower
+         <br>
+         <code>3~all~0,1,2</code>
+         <br><br>
+         <b>Example</b>: Use  text_5 in categories 8 and 12 for all users
+         <br>
+         <code>5~8,12~all</code>'
